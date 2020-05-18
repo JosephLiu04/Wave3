@@ -8,9 +8,4 @@ def prime(x):
   else:
     return True
 
-def main():
-  number = int(input("What is your number?"))
-  if prime(number) == True:
-    print("Your number is prime")
-  else:
-    print("Your number is composite")
+
